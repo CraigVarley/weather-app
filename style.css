@@ -1,0 +1,27 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body  {
+  display: flex;
+  -webkit-flex: column;
+  -ms-flex: column;
+  flex-direction: column;
+  height:100vh;
+  justify-content:center;
+  align-items: center;
+  /* background:linear-gradient(#2193b0, #6dd5ed); */
+  background:black;
+  font-family: sans-serif;
+  color:white;
+}
+
+#temperature,
+#location {
+  height:25vh;
+  display:flex;
+  flex-direction: column;
+
+}
