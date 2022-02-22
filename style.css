@@ -12,16 +12,17 @@ body  {
   height:100vh;
   justify-content:center;
   align-items: center;
-  /* background:linear-gradient(#2193b0, #6dd5ed); */
-  background:black;
-  font-family: sans-serif;
+  background: linear-gradient(to bottom, #94c5f8 1%,#a6e6ff 70%,#b1b5ea 100%);
   color:white;
+  font-family: sans-serif;
 }
+
+
 
 #temperature,
 #location {
   height:25vh;
   display:flex;
   flex-direction: column;
-
+  font-size: 300%;
 }
